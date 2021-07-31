@@ -1,0 +1,22 @@
+{
+    "name": "m2-oh/category-column-product-grid",
+    "version": "1.0.0",
+    "description": "Add extra column Category on product grid",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.4.0",
+        "magento/framework": "*",
+        "magento/module-catalog": "*"
+    },
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "OH\\Core\\": ""
+        }
+    }
+}
